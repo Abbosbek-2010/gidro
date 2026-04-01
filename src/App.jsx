@@ -12,9 +12,15 @@ function App() {
     <>
       <div className='body'>
         <div className='body_text'>
-          <h3>Dashboard</h3>
-          <h3>Products</h3>
-          <h3>Categories</h3>
+          <div className="text_div text_divs">
+            <h3><Link to={'/categories'}>Dashboard</Link></h3>
+          </div>
+          <div className="text_div">
+            <h3><Link to={'/products'}>Products</Link></h3>
+          </div>
+          <div className="text_div">
+            <h3><Link to={'/categories'}>Categories</Link></h3>
+          </div>
         </div>
         <div>
           <hr />
